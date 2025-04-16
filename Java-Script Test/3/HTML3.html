@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+    #content-box
+    {
+        display: none;
+        width: 500px;
+        background-color: cornflowerblue;
+        padding: 20px;
+        margin: 20px;
+    }
+    #toggle
+    {
+        border: 1px solid #000;
+        cursor: pointer;
+    }
+</style>
+
+<!--Jquery call-->
+<script src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous">
+</script> 
+</head>
+
+<body>
+<!-- show hide trigger element. Could be anything-->
+   <button id="toggle">Click Me!!</button>
+<!-- element to show / hide -->
+    <div id="content-box">YOU ARE UOB (UGLY OLD BITCH!!)</div>
+
+    <script>
+        $("#toggle").click
+            (function()
+                {
+                    $("#content-box").slideToggle(500);
+                }
+            )       
+    </script>
+</body>
+</html>
